@@ -4,6 +4,7 @@
 ## Overview
 
  In this project, we will be using Cypress to automate an API test for a given API.
+ 
  API: https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
 ## Prerequisites
@@ -20,7 +21,9 @@
 - Once installation process is finished successfully, start running the tests using the command **'npx cypress open'**
 
 ## Test Description
+
 The test will perform the following actions:
+
     1. Invoke given GET Request API using cy.request() method
     2. Verify that the API response status code should give 200 OK
     3. Verify that the API response contains a **"Name"** property with the value **"Carbon credits"**
