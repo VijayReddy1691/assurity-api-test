@@ -21,15 +21,15 @@
 - Once installation process is finished successfully, start running the tests using the command **'npx cypress open'**
 
 ## Test Description
-
 The test will perform the following actions:
+
     1. Invoke given GET Request API using cy.request() method
     2. Verify that the API response status code should give 200 OK
-    3. Verify that the API response contains a **'Name'** property with the value **'Carbon credits'**
-    4. Verify that the API response contains a **'CanRelist'** property with the value **true**.
+    3. Verify that the API response contains a "Name" property with the value "Carbon credits"
+    4. Verify that the API response contains a "CanRelist" property with the value true.
     5. Verify that the API response contains a Promotions array.
-    6. Iterate the Promotions array and check object with a **'Name'** property with the value **'Gallery'**
-    7. Verify that the object found in step 5 has a **'Description'** property that contains the text **'Good position in category'**.
+    6. Iterate the Promotions array and check object with a "Name" property with the value "Gallery"
+    7. Verify that the object found in step 5 has a "Description" property that contains the text "Good position in category".
 
 ## Test Results for Given API
 
